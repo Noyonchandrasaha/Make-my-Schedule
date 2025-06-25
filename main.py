@@ -1,3 +1,6 @@
+import os
+os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"  # Allow OAuth2 on HTTP for local development
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import router
