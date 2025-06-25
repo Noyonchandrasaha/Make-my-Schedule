@@ -1,0 +1,28 @@
+# Core Web Framework
+fastapi
+uvicorn[standard]
+
+# Google Calendar Integration
+google-auth
+google-auth-oauthlib
+google-api-python-client
+
+# LangGraph and LangChain Core
+langgraph
+langchain
+langchain-groq
+
+# Optional: LLM and Embedding Support
+
+
+# Pydantic for request/response models
+pydantic
+
+# Async support
+httpx
+
+# Environment variables
+python-dotenv
+
+# Logging & Utils
+rich
